@@ -10,11 +10,17 @@ super + Return
 super + d
 	dmenu_run
 
+# launch firefox 
 super + w
 	firefox
-# power off menu
+
+# launch power menu
 super + p
 	power_off
+
+# launch clipmenu
+super + v
+	clipmenu
 
 # make sxhkd reload its configuration files:
 super + Escape

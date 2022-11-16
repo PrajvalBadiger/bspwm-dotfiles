@@ -3,6 +3,10 @@
 # change default cursor X to pointer
 xsetroot -cursor_name left_ptr
 
+# sync both PRIMARY and CLIPBOARD X selections
+autocutsel -fork -selection CLIPBOARD
+autocutsel -fork -selection PRIMARY
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 feh --no-fehbg --bg-fill "$HOME/.config/wall.jpg"
 ~/.config/polybar/launch.sh &
