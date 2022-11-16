@@ -10,6 +10,12 @@ super + Return
 super + d
 	dmenu_run
 
+super + w
+	firefox
+# power off menu
+super + p
+	power_off
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd; dunstify -a  "Sxhkd configuration reloaded!!"
