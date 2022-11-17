@@ -1,6 +1,10 @@
-#
+
 # wm independent hotkeys
 #
+super + u
+	volumeControl up
+super + shift + u
+	volumeControl down
 
 # terminal emulator
 super + Return
